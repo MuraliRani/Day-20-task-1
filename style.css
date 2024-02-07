@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/abstract-geometric-wireframe-background_52683-59421.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #e81470;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    text-align: center;
+    background-image: url('laugh.jpg');
+}
+
+h1 {
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(249, 255, 71);
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+#fetchJokeBtn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 7px;
+    font-size: large;
+}
